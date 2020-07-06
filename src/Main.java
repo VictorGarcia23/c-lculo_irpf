@@ -9,15 +9,15 @@ public class Main {
         int birthDate;
 
         System.out.println("dame tu nombre: ");
-        nombre = input.next();
+        nombre = input.nextLine();
         System.out.println("dame tus apellidos: ");
-        apellidos = input.next();
+        apellidos = input.nextLine();
         System.out.println("dime tu año de nacimiento: ");
         birthDate = input.nextInt();
 
         int annos = 2020 - birthDate;
 
-        System.out.println("hola " + nombre  +  apellidos  + " tienes " +  annos  + " años");
+        System.out.println("hola " +  nombre +  apellidos  + " tienes " +  annos  + " años");
 
 
     }
